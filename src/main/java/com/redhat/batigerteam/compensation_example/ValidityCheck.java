@@ -15,5 +15,4 @@ public class ValidityCheck implements java.io.Serializable {
         return false;
     }
 
-
 }
