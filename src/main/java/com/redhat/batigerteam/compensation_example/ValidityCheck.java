@@ -11,7 +11,9 @@ public class ValidityCheck implements java.io.Serializable {
     public ValidityCheck() {
     }
 
-
+    public boolean doCheck() {
+        return false;
+    }
 
 
 }
