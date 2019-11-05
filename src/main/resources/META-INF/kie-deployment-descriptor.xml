@@ -9,12 +9,12 @@
     <event-listeners>
         <event-listener>
             <resolver>mvel</resolver>
-            <identifier>new com.redhat.batigerteam.example_tracing.ExampleProcessEventListener()</identifier>
+            <identifier>new com.redhat.batigerteam.example_tracing.ExampleAgendaEventListener()</identifier>
             <parameters/>
         </event-listener>
         <event-listener>
             <resolver>mvel</resolver>
-            <identifier>new com.redhat.batigerteam.example_tracing.ExampleAgendaEventListener()</identifier>
+            <identifier>new com.redhat.batigerteam.example_tracing.ExampleProcessEventListener()</identifier>
             <parameters/>
         </event-listener>
     </event-listeners>
@@ -26,7 +26,14 @@
         </task-event-listener>
     </task-event-listeners>
     <globals/>
-    <work-item-handlers/>
+    <work-item-handlers>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler()</identifier>
+            <parameters/>
+            <name>ServiceTask</name>
+        </work-item-handler>
+    </work-item-handlers>
     <environment-entries/>
     <configurations/>
     <required-roles/>
