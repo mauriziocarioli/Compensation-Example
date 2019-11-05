@@ -1,0 +1,1 @@
+{"id":"39d36004-f127-4502-a65f-b54c219d65ae","name":"BookFlightTask-taskform.frm","model":{"taskName":"BookFlightTask","processId":"Compensation-Example.BookingProcess","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

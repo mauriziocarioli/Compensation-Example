@@ -1,0 +1,1 @@
+{"id":"3efecfd9-77e5-46c2-ac8e-4bdcf07d1237","name":"BookHotelTask-taskform.frm","model":{"taskName":"BookHotelTask","processId":"Compensation-Example.BookingProcess","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

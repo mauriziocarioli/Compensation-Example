@@ -1,0 +1,1 @@
+{"id":"7ec17356-a98a-454e-ba0b-babef8fb8656","name":"CancelFlightTask-taskform.frm","model":{"taskName":"CancelFlightTask","processId":"Compensation-Example.BookingProcess","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
