@@ -1,0 +1,12 @@
+= BPM Compensation Example
+
+== Scenario
+
+* Login as Bob
+* Book hotel
+* Book flight
+* Login as Albert
+* Submit business transaction as not valid
+* See that the compensation has been triggered recursively
+* As Bob cancel hotel and flight
+* As Bob update customer record
